@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_bar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
+.nav_bar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:20px ;
+    
+}
+.nav_bar2{
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav_bar3{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.page1 .midpart{
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+}
+.page1 .left_side{
+    height: 500px;
+    width: 50%;
+    background-color: black;
+}
+.right_side{
+    height: 500px;
+    width: 50%;
+    /* background-color: white; */
+}
+
+.left_side h1{
+    text-transform: uppercase;
+    padding-top: 70px ;
+    padding-left: 40px;
+    font-size: 60px;
+    line-height: 20px;
+    font-weight: 600;
+}
+hr{
+    margin-top:100px ;
+    color: white;
+}
+
+.left_side .bottomInfo{
+    opacity: 0.6;
+    padding-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right_side img{
+    height: 500px;
+    width: 600px;
+}
+
+.page2 .card{
+    border: 2px solid white;
+    color: white;
+    height: 150px;
+    width: 200px;
+    border-radius:10px ;
+    padding-top:10px ;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+.card{
+    padding-top:10px ;
+    padding-left:15px ;
+    text-transform: uppercase;
+    font-weight: 400;
+}
