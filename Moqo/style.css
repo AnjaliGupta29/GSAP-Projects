@@ -1,0 +1,87 @@
+@font-face {
+    font-family: head;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-size: 80px;
+    z-index: 99;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* overflow: hidden; */
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+}
+
+.navbar1{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.navbar2{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.main{
+    text-transform: uppercase;
+    color: white;
+    font-family: head;
+    font-weight: 999;
+    font-size: 200px;
+    font-stretch: 250%;
+    white-space: nowrap;
+}
