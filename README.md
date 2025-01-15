@@ -17,3 +17,16 @@ This project demonstrates a simple yet elegant webpage with animations powered b
 <h2>Moqo UI </h2>
 <p>In this project, I utilized GSAP (GreenSock Animation Platform) to implement a smooth scroll-based animation on the X-axis. With GSAP's ScrollTrigger plugin, objects seamlessly move horizontally as the user scrolls through the page, creating a dynamic and engaging user experience. This effect enhances the visual appeal of the single-page UI by adding fluid transitions and interactivity, showcasing the power and flexibility of GSAP for crafting creative animations.</p>
 
+
+
+<h2>Login Form Input Wave</h2>
+<p>A modern login form with animated input labels and a gradient background.</p>
+
+<h3>Features</h3>
+<li>Animated wave effect on labels</li>
+<li>Responsive design</li>
+<li>Gradient background from light to dark wine</li>
+<li>Button click animation</li>
+
+<h3>Technologies Used</h3>
+<li>HTML, CSS, JavaScript</li>
